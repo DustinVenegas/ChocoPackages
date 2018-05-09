@@ -41,8 +41,8 @@ Install-ChocolateyPackage @packageArgs
 
 Write-Output "************************************************************************************"
 Write-Output "*  INSTRUCTIONS: Your system default PowerShell version has not been changed:      *"
-Write-Output "*   To start PowerShell Core $version, execute:                                     *"
-Write-Output "*      `"$installfolder\PowerShell.exe`"                   *"
+Write-Output "*   To start PowerShell Core $version, execute:                                    *"
+Write-Output "*      `"$installfolder\pwsh.exe`"                                                 *"
 Write-Output "*   Or start it from the desktop or start menu shortcut installed by this package. *"
 Write-Output "************************************************************************************"
 
